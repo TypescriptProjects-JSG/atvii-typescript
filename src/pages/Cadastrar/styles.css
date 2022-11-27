@@ -1,0 +1,66 @@
+.cadastro-titulo{
+    margin-top:4%;
+}
+
+.forms{
+    background-color: rgb(250, 249, 249);
+    width: 50%;
+    display: flex;
+    margin-top: 1.5%;
+    flex-direction: column;
+    border: 2.5px solid;
+    border-color: #daa520;
+    padding: 1.2%;
+    border-radius: 3.2%;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 1%;
+}
+
+.campo-duplo{
+    display: flex;
+}
+
+.campo-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.button-l{
+   margin-right: 2%;
+}
+
+.field input, select{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.esquerda{
+    width: 40%;
+    margin-right:  20%;
+}
+.direita{
+    width: 40%;
+}
+
+.submit{
+    margin-top: 25px;
+    background-color: #95ff6c;
+    border-color: #60ff21;
+    margin-left: 45%;
+}
+
+.submit:hover{
+    background-color: #67ff2b;
+    border-color: #60ff21;
+    color: black;
+}
+
