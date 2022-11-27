@@ -58,7 +58,7 @@ export default class CadastrarClientes extends Component {
                                     <input type="date"/>
                                 </div>
                             </div>
-                            <Button className="submit" variant="outline-dark" type='submit'>Cadastrar</Button>{' '}
+                            <Button className="submit" variant="outline" type='submit'>Cadastrar</Button>{' '}
                         </form>
                     </div>
                 </main>

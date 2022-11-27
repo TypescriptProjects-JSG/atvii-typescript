@@ -12,7 +12,7 @@ export default class Home extends Component {
                 </header>
                 <main>
                     <div className="text">
-                         <h1><strong>Salão WB</strong></h1>
+                        <h1><strong>Salão WB</strong></h1>
                     </div>
                     <div className="text-box">
                         <strong>

@@ -27,10 +27,10 @@ export default class EditarServico extends Component {
                             </div>
                             <div className="campo-button">
                                 <div className="button-l">
-                                    <Button className="submit" variant="outline-dark" type='submit'>Editar</Button>{' '}
+                                    <Button className="submit" variant="outline" type='submit'>Voltar</Button>{' '}
                                 </div>
                                 <div>
-                                    <Button className="submit" variant="outline-dark" href='/servicos'>Voltar</Button>{' '}
+                                    <Button className="submit" variant="outline" href='/servicos'>Editar</Button>{' '}
                                 </div>
                             </div>
                         </form>

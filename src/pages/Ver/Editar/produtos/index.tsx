@@ -25,10 +25,10 @@ export default class EditarProduto extends Component {
                             </div>
                             <div className="campo-button">
                                 <div className="button-l">
-                                    <Button className="submit" variant="outline-dark" type='submit'>Editar</Button>{' '}
+                                    <Button className="submit" variant="outline" type='submit'>Voltar</Button>{' '}
                                 </div>
                                 <div>
-                                    <Button className="submit" variant="outline-dark" href='/produtos'>Voltar</Button>{' '}
+                                    <Button className="submit" variant="outline" href='/produtos'>Editar</Button>{' '}
                                 </div>
                             </div>
                         </form>
