@@ -18,11 +18,11 @@ export default class EditarCliente extends Component {
                         <form>
                             <div className="field">
                                 <label htmlFor="Nome" >Nome Completo: </label>
-                                <input placeholder='Altere o nome completo do cliente' type="text"/>
+                                <input placeholder='Altere o nome completo' type="text"/>
                             </div>
                             <div className="field">
                                 <label htmlFor="Social">Nome social:</label>
-                                <input placeholder='Altere o nome social do cliente' type="text"/>
+                                <input placeholder='Altere o nome social' type="text"/>
                             </div>
                             <div className="campo-duplo">
                                 <div className="field esquerda">

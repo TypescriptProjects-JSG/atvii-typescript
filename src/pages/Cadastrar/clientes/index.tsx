@@ -17,11 +17,11 @@ export default class CadastrarClientes extends Component {
                         <form>
                             <div className="field">
                                 <label htmlFor="Nome">Nome Completo:</label>
-                                <input placeholder='Insira o nome completo do cliente' type="text"/>
+                                <input placeholder='Insira o nome completo' type="text"/>
                             </div>
                             <div className="field">
                                 <label htmlFor="Social">Nome social:</label>
-                                <input placeholder='Insira o nome social do cliente' type="text"/>
+                                <input placeholder='Insira o nome social' type="text"/>
                             </div>
                             <div className="campo-duplo">
                                 <div className="field esquerda">

@@ -16,7 +16,7 @@ export default class CadastrarProdutos extends Component {
                         <form>
                             <div className="field">
                                 <label htmlFor="Produto">Nome do produto:</label>
-                                <input placeholder='Insira o nome do produto como está no sistema' type="text" />
+                                <input placeholder='Insira o nome do produto' type="text" />
                             </div>
                             <div className="field">
                                 <label htmlFor="Preco">Valor R$: </label>

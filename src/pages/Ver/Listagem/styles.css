@@ -18,6 +18,7 @@ main h1{
     margin: 25px 10px;
     width: 80%;
     text-align: center;
+    overflow-x: auto;
 }
 
 .editar-cps{

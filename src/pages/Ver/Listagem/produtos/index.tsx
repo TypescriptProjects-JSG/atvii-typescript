@@ -1,4 +1,4 @@
-import {  Table } from 'react-bootstrap';
+import { Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
 import { Component } from 'react';
 import '../styles.css';

@@ -19,7 +19,7 @@ export default class Servicos extends Component {
                                 <tr>
                                     <th>Serviço</th>
                                     <th>Preço</th>
-                                    <th>Ações</th>
+                                    <th>Opções</th>
                                 </tr>
                             </thead>
                             <tbody>
