@@ -23,7 +23,7 @@ export default class Clientes extends Component {
                                     <th>CPF</th>
                                     <th>RG</th>
                                     <th>Telefone</th>
-                                    <th>Ações</th>
+                                    <th>Opções</th>
                                 </tr>
                             </thead>
                             <tbody>

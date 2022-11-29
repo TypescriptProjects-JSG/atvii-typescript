@@ -12,7 +12,7 @@ export default class Consumos extends Component {
                 </header>
                 <main>
                     <div className="tables">
-                        <h1 className='titles'><strong>Clientes Masculino</strong></h1>
+                        <h1 className='titles'><strong>Clientes: sexo masculino</strong></h1>
                         <Table striped bordered hover variant="light">
                             <thead className='titles-table'>
                                 <tr>
@@ -27,7 +27,7 @@ export default class Consumos extends Component {
                                 </tr>
                             </tbody>
                         </Table>
-                        <h1 className='titles'><strong>Clientes Feminino</strong></h1>
+                        <h1 className='titles'><strong>Sexo feminino</strong></h1>
                         <Table striped bordered hover variant="light">
                             <thead className='titles-table'>
                                 <tr>
