@@ -1,4 +1,4 @@
-import { Table } from 'react-bootstrap';
+import {Button, Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
 import { Component } from 'react';
 import '../../Listagem/styles.css';
@@ -28,12 +28,13 @@ export default class ServicosAdc extends Component {
                                     <td>R$ 500,00</td>    
                                     <td>
                                         <div>
-                                            <a href={`/adicionar_servico/1`}>Adicionar ao cliente</a> <br />  
+                                            <a className="add-servico" href={`#`}>Adicionar ao cliente</a> <br />  
                                         </div>
                                     </td>
                                 </tr>
                             </tbody>
                         </Table>
+                        <Button className="submit botao-add" variant="outline" href='/clientes'> Voltar </Button>{' '}
                     </div>
                 </main>
             </section>
