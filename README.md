@@ -27,6 +27,8 @@
 
 <h2 id="manual"> 📜Manual do Usuário </h2>
 
+Requisitos: ter instalado o Node JS.
+
 1.Criar uma pasta e clonar o repositório com o seguinte comando no cmd: </li>
 
 ```
@@ -61,6 +63,7 @@ npm start
 <ul> 
     <li> TypeScript</li>
     <li> React JS </li>
+    <li> Node Js </li>
     <li> HTML </li>
     <li> CSS </li>
     <li> Github </li>
