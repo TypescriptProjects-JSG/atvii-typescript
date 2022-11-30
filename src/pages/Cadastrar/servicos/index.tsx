@@ -15,7 +15,7 @@ export default class CadastrarServicos extends Component {
                     <div className="forms">
                         <form>
                             <div className="field">
-                                <label htmlFor="Produto">Serviço:</label>
+                                <label htmlFor="Produto">Nome do serviço:</label>
                                 <input placeholder='Insira o nome do serviço' type="text" />
                             </div>
                             <div className="field">
