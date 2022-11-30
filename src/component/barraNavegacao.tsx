@@ -31,6 +31,7 @@ export default class Navbar_ extends Component {
                                     <NavDropdown.Item href="/consumo_genero">Gênero</NavDropdown.Item>
                                     <NavDropdown.Item href="/consumo_psmaisconsumido">Mais consumidos</NavDropdown.Item>
                                     <NavDropdown.Item href="/consumo_menor" >Menos consumiram</NavDropdown.Item>
+                                    <NavDropdown.Item href="/consumo_prudto_servico_genero">Mais consumidos por gênero</NavDropdown.Item>
                                     <NavDropdown.Item href="/consumo_valor" >Mais comsumiram em valor</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>

@@ -1,10 +1,10 @@
 import {  Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
 import { Component } from 'react';
-import '../styles.css';
+import '../../Listagem/styles.css';
 
 
-export default class Produtos extends Component {
+export default class ProdutosAdc extends Component {
     render(){
         return (
             <section>

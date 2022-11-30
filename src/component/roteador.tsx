@@ -26,6 +26,12 @@ import ConsumoValor from '../pages/Listagem/C-Valor/index'
 import ConsumoMenor from '../pages/Listagem/C-Menos/index'
 import ConsumoPSConsumido from '../pages/Listagem/C-MaiorPS/index'
 import ConsumoConsumidor from '../pages/Listagem/C-MaiorQnt/index'
+import Consumos from '../pages/Listagem/C-ProdServGen';
+
+// adicionar
+import ProdutosAdc from '../pages/Ver/Adicionar/produtos';
+import ServicosAdc from '../pages/Ver/Adicionar/servicos';
+
 
 function AppRoutes() {
     return (
@@ -53,6 +59,11 @@ function AppRoutes() {
                 <Route path='/consumo_menor/' element={<ConsumoMenor/>}/>
                 <Route path='/consumo_psmaisconsumido/' element={<ConsumoPSConsumido/>}/>
                 <Route path='/consumo_consumidor/' element={<ConsumoConsumidor/>}/>
+                <Route path='/consumo_prudto_servico_genero/' element={<Consumos/>}/>
+
+                {/* adicionar */}
+                <Route path='/adicionar/produtos/:id' element={<ProdutosAdc/>}/>
+                <Route path='/adicionar/servicos/:id' element={<ServicosAdc/>}/>
             </Routes>
         </Router>
     );

@@ -37,8 +37,8 @@ export default class Clientes extends Component {
                                     <td>
                                         <div>
                                             <a  className="editar-cps" href={`/editar_cliente/1`}>Editar</a> <br />     
-                                            <a className="adicionar"  href={`adicionar_produto/1`}>Adicionar Produtos</a> <br />
-                                            <a className="adicionar" href={`adicionar_servico/1`}>Adicionar Serviços</a> <br />
+                                            <a className="adicionar"  href={`/adicionar/produtos/1`}>Adicionar Produtos</a> <br />
+                                            <a className="adicionar" href={`/adicionar/servicos/1`}>Adicionar Serviços</a> <br />
                                             <a  className="remover-cps" href="##">Remover</a>
                                         </div>
                                     </td>
