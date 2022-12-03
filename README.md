@@ -35,7 +35,7 @@ Requisitos: ter instalado o Node JS.
 git clone https://github.com/TypescriptProjects-JSG/atvii-typescript
 ```
 
-2.Entrar na pasta do projeto (cd atvi-typescript) e executar:
+2.Entrar na pasta do projeto (cd atvii-typescript) e executar:
 
 ```
 npm install
