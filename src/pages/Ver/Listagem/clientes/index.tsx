@@ -1,6 +1,6 @@
 import { Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
-import '../styles.css';
+import '../../Listagem/styles.css';
 import { Component } from 'react';
 
 

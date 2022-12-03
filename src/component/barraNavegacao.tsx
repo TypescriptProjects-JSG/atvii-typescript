@@ -7,7 +7,7 @@ export default class Navbar_ extends Component {
 
         return (
             <>
-            <Navbar className='nav' variant="dark" expand="lg">
+            <Navbar className='nav' variant="light" expand="lg">
                 <Container>
                     <div>
                         <Navbar.Brand  className="logo" href="/"> <strong> W B  </strong></Navbar.Brand>
@@ -26,12 +26,12 @@ export default class Navbar_ extends Component {
                                     <NavDropdown.Item href="/cadastrar_produto">Produto</NavDropdown.Item>
                                     <NavDropdown.Item href="/cadastrar_servico">Serviço</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Listagem" id="basic-nav-dropdown">
+                                <NavDropdown title="Listagens" id="basic-nav-dropdown">
                                     <NavDropdown.Item href="/consumo_consumidor">Mais consumiram</NavDropdown.Item>
                                     <NavDropdown.Item href="/consumo_genero">Gênero</NavDropdown.Item>
                                     <NavDropdown.Item href="/consumo_psmaisconsumido">Mais consumidos</NavDropdown.Item>
                                     <NavDropdown.Item href="/consumo_menor" >Menos consumiram</NavDropdown.Item>
-                                    <NavDropdown.Item href="/consumo_prudto_servico_genero">Mais consumidos por gênero</NavDropdown.Item>
+                                    <NavDropdown.Item href="/consumo_prudto_servico_genero">Mais consumidos (gênero)</NavDropdown.Item>
                                     <NavDropdown.Item href="/consumo_valor" >Mais comsumiram em valor</NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
@@ -43,11 +43,3 @@ export default class Navbar_ extends Component {
     );
     }
 }
-// import { Component } from 'react';
-
-
-// export default class Navbar_ extends Component {
-//     render(){
-
-//     }
-// }

@@ -12,7 +12,7 @@ export default class CadastrarClientes extends Component {
                     <NavBar_ />
                 </header>
                 <main>
-                    <h1 className='cadastro-titulo'><strong>Cadastro de Clientes</strong></h1>
+                    <h1 className='margin-titulo'><strong>Cadastro de Clientes</strong></h1>
                     <div className="forms">
                         <form>
                             <div className="field">
@@ -34,31 +34,27 @@ export default class CadastrarClientes extends Component {
                                     </select>
                                 </div>
                                 <div className="field direita">
-                                    <label htmlFor="Telefone">Telefone:</label>
-                                    <input placeholder='XX XXXXXXXX' type="text" />
-                                </div>
-                            </div>
-                            <div className="campo-duplo">
-                                <div className="field esquerda">
                                     <label htmlFor="cpf">CPF:</label>
                                     <input type="text" placeholder='XXX.XXX.XXX-XX'/>
                                 </div>
-                                <div className="field direita">
-                                    <label htmlFor="cpf">CPF data de emissao:</label>
-                                    <input  type="date"/>
-                                </div>
                             </div>
-                            <div className="campo-duplo">
-                                <div className="field esquerda">
-                                    <label htmlFor="rg">RG:</label>
-                                    <input type="text" placeholder='XX.XXX.XXX-X'/>
-                                </div>
-                                <div className="field direita">
-                                    <label htmlFor="cpf">RG data de emissao:</label>
-                                    <input type="date"/>
-                                </div>
+                            <div className="field">
+                                    <label htmlFor="Telefone">Telefone:</label>
+                                    <input placeholder='XX XXXXXXXX' type="text" />
                             </div>
-                            <Button className="submit" variant="outline" type='submit'>Cadastrar</Button>{' '}
+                            <div className="field">
+                                <label htmlFor="rg">RG:</label>
+                                <input type="text" placeholder='XX.XXX.XXX-X'/>
+                            </div>
+                            <div className="field">
+                                <label htmlFor="cpf">RG data de emissao:</label>
+                                <input type="date"/>
+                            </div>
+                            <div className="btns">
+                                <Button className="add add-color" variant="outline-dark" type="button">Adicionar Telefone</Button>
+                                <Button className="add add-color" variant="outline-dark" type="button">Adicionar RG</Button>
+                                <Button className="add add-green" variant="outline-dark" type='submit'>Cadastrar</Button>{' '}
+                            </div>
                         </form>
                     </div>
                 </main>

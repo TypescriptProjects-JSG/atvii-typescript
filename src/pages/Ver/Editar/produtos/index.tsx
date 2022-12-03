@@ -23,13 +23,11 @@ export default class EditarProduto extends Component {
                                 <label htmlFor="Nome" >Valor R$:</label>
                                 <input placeholder="Altere o valor do produto" type="number" min={0}/>
                             </div>
-                            <div className="campo-button">
+                            <div className="campo-button campo-btns">
                                 <div className="button-l">
                                     <Button className="submit" variant="outline" href='/produtos'>Voltar</Button>{' '}
                                 </div>
-                                <div>
-                                    <Button className="submit" variant="outline" type='submit'>Editar</Button>{' '}
-                                </div>
+                                    <Button className="submit btn-resp" variant="outline" type='submit'>Editar</Button>{' '}
                             </div>
                         </form>
                     </div>

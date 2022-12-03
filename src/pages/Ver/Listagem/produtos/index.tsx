@@ -27,7 +27,7 @@ export default class Produtos extends Component {
                                     <td>Creme</td>
                                     <td>R$ 120,00</td>    
                                     <td>
-                                        <div>
+                                        <div className="dupla">
                                             <a  className="editar-cps" href={`/editar_produto/1`}>Editar</a> <br />  
                                             <a  className="remover-cps" href="##">Remover</a>
                                         </div>

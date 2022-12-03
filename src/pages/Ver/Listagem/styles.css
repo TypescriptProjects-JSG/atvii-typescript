@@ -21,20 +21,29 @@ main h1{
     overflow-x: auto;
 }
 
+.dupla{
+    display: flex;
+    justify-content: center;
+}
+
 .editar-cps{
-    background-color: #646966b7;
+    background-color: #646966b7; 
     color: rgb(255, 255, 255);
     padding: 1% 4%;
     /* margin-bottom: 10px; */
-    border-radius: 10%;
+    border-radius: 6px;
     text-decoration: none;
+}
+
+.dupla a{
+    margin-left: 15px;
 }
 
 .adicionar{
     background-color: #18e968b7;
     color: rgb(255, 255, 255);
     padding: 1% 6%;
-    border-radius: 10%;
+    border-radius: 6px;
     text-decoration: none;
 }
 
@@ -51,8 +60,19 @@ main h1{
     background-color: #e04c27b7;
     color: rgb(255, 255, 255);
     padding: 1% 4%;
-    border-radius: 10%;
+    border-radius: 6px;
     text-decoration: none;
+}
+
+.submit{
+    margin-top: 25px;
+    background-color: #95ff6c;
+    border-color: #60ff21;
+    margin-left: 45%;
+}
+
+.button-l{
+    margin-right: 2%;
 }
 
 .icons{
@@ -60,8 +80,17 @@ main h1{
     flex-direction: column;
 }
 
+.remove{
+    background-color: #e04c27b7;
+    color: rgb(255, 255, 255);
+    padding: 0.5% 1%;
+    border-radius: 6px;
+    text-decoration: none;
+    width: 11%;
+}
 
- @media (max-width: 632px) {
+    
+@media (max-width: 632px) {
     .Button{
         display: none;
         flex-direction: column;
@@ -72,5 +101,4 @@ main h1{
         display: flex
     }
     
-
-}; 
+}

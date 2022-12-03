@@ -1,6 +1,11 @@
 .cadastro-titulo{
     margin-top:4%;
-}
+} 
+
+
+.margin-titulo{
+    margin-top:2%;
+} 
 
 .forms{
     background-color: rgb(250, 249, 249);
@@ -12,6 +17,7 @@
     border-color: #daa520;
     padding: 1.2%;
     border-radius: 15px;
+    margin-bottom: 2%;
 }
 
 .field{
@@ -19,6 +25,7 @@
     flex-direction: column;
     gap:10px;
     margin-bottom: 1%;
+    
 }
 
 .campo-duplo{
@@ -58,9 +65,131 @@
     margin-left: 45%;
 }
 
+.submit-add{
+    background-color: #95ff6c;
+    border-color: #60ff21;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.add{
+    margin-top: 25px;
+    background-color: #95ff6c;
+    border-color: #60ff21;
+}
+
+.add-color{
+    background-color: #eaff70;
+    border-color: #eff961;
+    color: rgb(0, 0, 0);
+}
+
+.add-color:hover{
+    background-color: #e6f545;
+    border-color: #edfa3b;
+    color: rgb(0, 0, 0);
+}
+
 .submit:hover{
     background-color: #67ff2b;
     border-color: #60ff21;
     color: black;
 }
 
+.add-green:hover{
+    background-color: #67ff2b;
+    border-color: #60ff21;
+    color: black;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.remove{
+        background-color: #e04c27b7;
+        color: rgb(255, 255, 255);
+        padding: 0.5% 1%;
+        border-radius: 6px;
+        text-decoration: none;
+        width: 11%;
+}
+
+@media (max-width: 1200px) {
+
+    .remove{
+        width: 16%;
+    }
+    @media (max-width: 800px) {
+        .btns{
+            display: block;
+            margin-top: 2%;
+        }
+
+        .add{
+            display:block;
+            margin-top: 25px;
+            margin: auto;
+            margin-bottom: 1% 
+        }
+
+        .forms{
+            margin-top: 3%;
+        }
+
+        .cadastro-titulo{
+            margin-top:10%;
+        } 
+        
+        .remove{
+            width: 20%;
+        }
+
+        .submit{
+            margin-left: 35%;
+        }
+        
+        @media (max-width: 600px) {
+            .forms{
+                width: 75%;
+                margin-top: 1.5%;
+                margin-bottom: 2%;
+            }
+
+            .remove{
+                width: 22%;
+            }
+
+            .margin-titulo {
+                margin-top:10%;
+            } 
+
+            @media (max-width: 400px) {
+                .remove{
+                    width: 27%;
+                }
+                @media (max-width: 350px) {
+                    .remove{
+                        width: 35%;
+                    }
+                    .campo-btns{
+                        display:block;
+                    }
+                    @media (max-width: 260px) {
+                        .submit{
+                            margin-left: 26%;
+                        }
+
+                        .remove{
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+        
+            
+        }; 
+
+    };
+};

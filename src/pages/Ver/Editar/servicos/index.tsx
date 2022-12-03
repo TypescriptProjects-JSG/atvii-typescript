@@ -25,9 +25,9 @@ export default class EditarServico extends Component {
                                 <label htmlFor="Nome" >Valor R$:</label>
                                 <input placeholder="Altere o valor do serviço" type="number" min={0}/>
                             </div>
-                            <div className="campo-button">
+                            <div className="campo-button campo-btns">
                                 <div className="button-l">
-                                    <Button className="submit" variant="outline" href='/servicos'>Voltar </Button>{' '}
+                                    <Button className="submit btn-resp" variant="outline" href='/servicos'>Voltar </Button>{' '}
                                     
                                 </div>
                                 <div>

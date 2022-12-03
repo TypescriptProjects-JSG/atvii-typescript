@@ -34,7 +34,7 @@ export default class ServicosAdc extends Component {
                                 </tr>
                             </tbody>
                         </Table>
-                        <Button className="submit botao-add" variant="outline" href='/clientes'> Voltar </Button>{' '}
+                        <Button className="submit submit-add" variant="outline" href='/clientes'> Voltar </Button>{' '}
                     </div>
                 </main>
             </section>

@@ -20,7 +20,7 @@ export default class CadastrarProdutos extends Component {
                             </div>
                             <div className="field">
                                 <label htmlFor="Preco">Valor R$: </label>
-                                <input placeholder='R$ XX,XX' type="number" min={0} />
+                                <input placeholder='XX' type="number" min={0} />
                             </div>
                             <Button className="submit" variant="outline" type='submit'>Cadastrar</Button>{' '}
                         </form>

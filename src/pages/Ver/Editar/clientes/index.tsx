@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-pascal-case */
 import { Button } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
 import { Component } from 'react';
@@ -34,37 +33,28 @@ export default class EditarCliente extends Component {
                                     </select>
                                 </div>
                                 <div className="field direita">
-                                    <label htmlFor="Social">Telefone:</label>
-                                    <input placeholder='XX XXXXXXXX' type="text" />
-                                </div>
-                            </div>
-
-                            <div className="campo-duplo">
-                                <div className="field esquerda">
                                     <label htmlFor="cpf">CPF:</label>
                                     <input type="text" placeholder='XXX.XXX.XXX-XX'/>
                                 </div>
-                                <div className="field direita">
-                                    <label htmlFor="cpf">CPF data de emissao:</label>
-                                    <input  type="date"/>
-                                </div>
                             </div>
-                            <div className="campo-duplo">
-                                <div className="field esquerda">
-                                    <label htmlFor="rg">RG:</label>
-                                    <input type="text" placeholder='XX.XXX.XXX-X'/>
-                                </div>
-                                <div className="field direita">
-                                    <label htmlFor="cpf">RG data de emissao:</label>
-                                    <input type="date"/>
-                                </div>
+                            <div className="field">
+                                <label htmlFor="Social">Telefone:</label>
+                                <input placeholder='XX XXXXXXXX' type="text" />
+                            </div>
+                            <div className="field">
+                                <label htmlFor="rg">RG:</label>
+                                <input type="text" placeholder='XX.XXX.XXX-X'/>
+                            </div>
+                            <div className="field">
+                                <label htmlFor="cpf">RG data de emissao:</label>
+                                <input type="date"/>
                             </div>
                             <div className="campo-button">
                                 <div className="button-l">
                                     <Button className="submit" variant="outline" href='/clientes'>Voltar</Button>{' '}
                                 </div>
                                 <div>
-                                    <Button className="submit" variant="outline" type='submit'>Editar</Button>{' '}
+                                    <Button className="submit btn-resp" variant="outline" type='submit'>Editar</Button>{' '}
                                 </div>
                             </div>
                         </form>

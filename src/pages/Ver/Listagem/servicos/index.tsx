@@ -1,7 +1,7 @@
 import { Table } from 'react-bootstrap';
 import NavBar_ from '../../../../component/barraNavegacao';
 import { Component } from 'react';
-import '../styles.css';
+import '../../Listagem/styles.css';
 
 
 export default class Servicos extends Component {
@@ -27,7 +27,7 @@ export default class Servicos extends Component {
                                     <td>Massagem</td>
                                     <td>R$ 500,00</td>    
                                     <td>
-                                        <div>
+                                        <div  className="dupla">
                                             <a  className="editar-cps" href={`/editar_servico/1`}>Editar</a> <br />  
                                             <a className="remover-cps" href="##">Remover</a>
                                         </div>
